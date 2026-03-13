@@ -25,11 +25,3 @@ npm run build
 npm start
 ```
 
-## Deploy on Vercel
-
-1. Push this repo to GitHub.
-2. Go to [vercel.com](https://vercel.com) → New Project → Import the repo.
-3. Leave build settings as default (Framework: Next.js, root: `.`).
-4. Deploy.
-
-Assets: put `hero section car.png` and `COMING SOON (1).png` in `public/assets/`.
