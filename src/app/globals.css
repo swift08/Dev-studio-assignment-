@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --aavoride-orange: #e85d04;
+  --aavoride-orange-hover: #d54d02;
+}
+@theme inline {
+  --color-background: #fff;
+  --color-foreground: #171717;
+  --font-sans: var(--font-geist-sans);
+}
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
